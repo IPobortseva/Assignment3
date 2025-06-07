@@ -2,5 +2,4 @@
 a = list(map(int,input("Введіть цілі числа через пробіл: ").split( )))
 for i in a:
     if i%2!=0:
-        print(i)
-        
+        print(i, end = " ")

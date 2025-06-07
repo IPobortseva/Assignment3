@@ -2,4 +2,4 @@
 a=list(map(int,input("Введіть цілі числа через пробіл: ").split( )))
 n=int(input("Введіть ціле число: "))
 for i in a:
-    print(i*n)
+    print(i*n, end= " ")
